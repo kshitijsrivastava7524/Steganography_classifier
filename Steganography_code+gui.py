@@ -9,8 +9,8 @@ import string
 from PIL import Image
 
 # Initialize NLTK resources
-# nltk.download('punkt')
-# nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # Load machine learning model and CountVectorizer
 model = joblib.load('SVC.pkl')
